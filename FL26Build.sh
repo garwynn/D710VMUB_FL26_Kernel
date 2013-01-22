@@ -19,7 +19,7 @@ export INITRAMFS_SOURCE=$BASEDIR/initramfs/E4GT_Multiboot_initramfs
 export INITRAMFS_TMP="/tmp/initramfs-e4gt"
 export JOBS=`grep 'processor' /proc/cpuinfo | wc -l`
 export VARIANT=SXTP_Agat_VMUBFL26_kernel
-export RELEASE_VER=SXTP_Agat_VMUBFL26-v0.1.0
+export RELEASE_VER=SXTP_Agat_VMUBFL26-v0.2.0
 export CROSS_COMPILE=~/Kernel/toolchain/prebuilt/arm-eabi-4.4.3/bin/arm-eabi-
 
 ## Command line options that allow overriding defaults, if desired.
